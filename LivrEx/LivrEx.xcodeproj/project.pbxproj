@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE4A00FC1F3B584C0038F58E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A00FB1F3B584C0038F58E /* AppDelegate.swift */; };
+		AE4A00FE1F3B584C0038F58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A00FD1F3B584C0038F58E /* ViewController.swift */; };
+		AE4A01011F3B584C0038F58E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4A00FF1F3B584C0038F58E /* Main.storyboard */; };
+		AE4A01031F3B584C0038F58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4A01021F3B584C0038F58E /* Assets.xcassets */; };
+		AE4A01061F3B584C0038F58E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4A01041F3B584C0038F58E /* LaunchScreen.storyboard */; };
+		AE4A01111F3B584C0038F58E /* LivrExTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A01101F3B584C0038F58E /* LivrExTests.swift */; };
+		AE4A011C1F3B584C0038F58E /* LivrExUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4A011B1F3B584C0038F58E /* LivrExUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE4A010D1F3B584C0038F58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4A00F01F3B584C0038F58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4A00F71F3B584C0038F58E;
+			remoteInfo = LivrEx;
+		};
+		AE4A01181F3B584C0038F58E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE4A00F01F3B584C0038F58E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE4A00F71F3B584C0038F58E;
+			remoteInfo = LivrEx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE4A00F81F3B584C0038F58E /* LivrEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LivrEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4A00FB1F3B584C0038F58E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE4A00FD1F3B584C0038F58E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE4A01001F3B584C0038F58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE4A01021F3B584C0038F58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE4A01051F3B584C0038F58E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE4A01071F3B584C0038F58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4A010C1F3B584C0038F58E /* LivrExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivrExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4A01101F3B584C0038F58E /* LivrExTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivrExTests.swift; sourceTree = "<group>"; };
+		AE4A01121F3B584C0038F58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4A01171F3B584C0038F58E /* LivrExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivrExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4A011B1F3B584C0038F58E /* LivrExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivrExUITests.swift; sourceTree = "<group>"; };
+		AE4A011D1F3B584C0038F58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE4A00F51F3B584C0038F58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A01091F3B584C0038F58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A01141F3B584C0038F58E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE4A00EF1F3B584C0038F58E = {
+			isa = PBXGroup;
+			children = (
+				AE4A00FA1F3B584C0038F58E /* LivrEx */,
+				AE4A010F1F3B584C0038F58E /* LivrExTests */,
+				AE4A011A1F3B584C0038F58E /* LivrExUITests */,
+				AE4A00F91F3B584C0038F58E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4A00F91F3B584C0038F58E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A00F81F3B584C0038F58E /* LivrEx.app */,
+				AE4A010C1F3B584C0038F58E /* LivrExTests.xctest */,
+				AE4A01171F3B584C0038F58E /* LivrExUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE4A00FA1F3B584C0038F58E /* LivrEx */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A00FB1F3B584C0038F58E /* AppDelegate.swift */,
+				AE4A00FD1F3B584C0038F58E /* ViewController.swift */,
+				AE4A00FF1F3B584C0038F58E /* Main.storyboard */,
+				AE4A01021F3B584C0038F58E /* Assets.xcassets */,
+				AE4A01041F3B584C0038F58E /* LaunchScreen.storyboard */,
+				AE4A01071F3B584C0038F58E /* Info.plist */,
+			);
+			path = LivrEx;
+			sourceTree = "<group>";
+		};
+		AE4A010F1F3B584C0038F58E /* LivrExTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A01101F3B584C0038F58E /* LivrExTests.swift */,
+				AE4A01121F3B584C0038F58E /* Info.plist */,
+			);
+			path = LivrExTests;
+			sourceTree = "<group>";
+		};
+		AE4A011A1F3B584C0038F58E /* LivrExUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A011B1F3B584C0038F58E /* LivrExUITests.swift */,
+				AE4A011D1F3B584C0038F58E /* Info.plist */,
+			);
+			path = LivrExUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE4A00F71F3B584C0038F58E /* LivrEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4A01201F3B584C0038F58E /* Build configuration list for PBXNativeTarget "LivrEx" */;
+			buildPhases = (
+				AE4A00F41F3B584C0038F58E /* Sources */,
+				AE4A00F51F3B584C0038F58E /* Frameworks */,
+				AE4A00F61F3B584C0038F58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LivrEx;
+			productName = LivrEx;
+			productReference = AE4A00F81F3B584C0038F58E /* LivrEx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE4A010B1F3B584C0038F58E /* LivrExTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4A01231F3B584C0038F58E /* Build configuration list for PBXNativeTarget "LivrExTests" */;
+			buildPhases = (
+				AE4A01081F3B584C0038F58E /* Sources */,
+				AE4A01091F3B584C0038F58E /* Frameworks */,
+				AE4A010A1F3B584C0038F58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4A010E1F3B584C0038F58E /* PBXTargetDependency */,
+			);
+			name = LivrExTests;
+			productName = LivrExTests;
+			productReference = AE4A010C1F3B584C0038F58E /* LivrExTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE4A01161F3B584C0038F58E /* LivrExUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE4A01261F3B584C0038F58E /* Build configuration list for PBXNativeTarget "LivrExUITests" */;
+			buildPhases = (
+				AE4A01131F3B584C0038F58E /* Sources */,
+				AE4A01141F3B584C0038F58E /* Frameworks */,
+				AE4A01151F3B584C0038F58E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4A01191F3B584C0038F58E /* PBXTargetDependency */,
+			);
+			name = LivrExUITests;
+			productName = LivrExUITests;
+			productReference = AE4A01171F3B584C0038F58E /* LivrExUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE4A00F01F3B584C0038F58E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Maria Angelica Dadalt";
+				TargetAttributes = {
+					AE4A00F71F3B584C0038F58E = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					AE4A010B1F3B584C0038F58E = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = AE4A00F71F3B584C0038F58E;
+					};
+					AE4A01161F3B584C0038F58E = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = AE4A00F71F3B584C0038F58E;
+					};
+				};
+			};
+			buildConfigurationList = AE4A00F31F3B584C0038F58E /* Build configuration list for PBXProject "LivrEx" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE4A00EF1F3B584C0038F58E;
+			productRefGroup = AE4A00F91F3B584C0038F58E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE4A00F71F3B584C0038F58E /* LivrEx */,
+				AE4A010B1F3B584C0038F58E /* LivrExTests */,
+				AE4A01161F3B584C0038F58E /* LivrExUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE4A00F61F3B584C0038F58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4A01061F3B584C0038F58E /* LaunchScreen.storyboard in Resources */,
+				AE4A01031F3B584C0038F58E /* Assets.xcassets in Resources */,
+				AE4A01011F3B584C0038F58E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A010A1F3B584C0038F58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A01151F3B584C0038F58E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE4A00F41F3B584C0038F58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4A00FE1F3B584C0038F58E /* ViewController.swift in Sources */,
+				AE4A00FC1F3B584C0038F58E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A01081F3B584C0038F58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4A01111F3B584C0038F58E /* LivrExTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE4A01131F3B584C0038F58E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4A011C1F3B584C0038F58E /* LivrExUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE4A010E1F3B584C0038F58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4A00F71F3B584C0038F58E /* LivrEx */;
+			targetProxy = AE4A010D1F3B584C0038F58E /* PBXContainerItemProxy */;
+		};
+		AE4A01191F3B584C0038F58E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE4A00F71F3B584C0038F58E /* LivrEx */;
+			targetProxy = AE4A01181F3B584C0038F58E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE4A00FF1F3B584C0038F58E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4A01001F3B584C0038F58E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE4A01041F3B584C0038F58E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE4A01051F3B584C0038F58E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE4A011E1F3B584C0038F58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE4A011F1F3B584C0038F58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE4A01211F3B584C0038F58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AN4SJ9636K;
+				INFOPLIST_FILE = LivrEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadApps.LivrEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE4A01221F3B584C0038F58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AN4SJ9636K;
+				INFOPLIST_FILE = LivrEx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadApps.LivrEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE4A01241F3B584C0038F58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AN4SJ9636K;
+				INFOPLIST_FILE = LivrExTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadApps.LivrExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivrEx.app/LivrEx";
+			};
+			name = Debug;
+		};
+		AE4A01251F3B584C0038F58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = AN4SJ9636K;
+				INFOPLIST_FILE = LivrExTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadApps.LivrExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LivrEx.app/LivrEx";
+			};
+			name = Release;
+		};
+		AE4A01271F3B584C0038F58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AN4SJ9636K;
+				INFOPLIST_FILE = LivrExUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadApps.LivrExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LivrEx;
+			};
+			name = Debug;
+		};
+		AE4A01281F3B584C0038F58E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = AN4SJ9636K;
+				INFOPLIST_FILE = LivrExUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MadApps.LivrExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LivrEx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE4A00F31F3B584C0038F58E /* Build configuration list for PBXProject "LivrEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4A011E1F3B584C0038F58E /* Debug */,
+				AE4A011F1F3B584C0038F58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4A01201F3B584C0038F58E /* Build configuration list for PBXNativeTarget "LivrEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4A01211F3B584C0038F58E /* Debug */,
+				AE4A01221F3B584C0038F58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4A01231F3B584C0038F58E /* Build configuration list for PBXNativeTarget "LivrExTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4A01241F3B584C0038F58E /* Debug */,
+				AE4A01251F3B584C0038F58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE4A01261F3B584C0038F58E /* Build configuration list for PBXNativeTarget "LivrExUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4A01271F3B584C0038F58E /* Debug */,
+				AE4A01281F3B584C0038F58E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE4A00F01F3B584C0038F58E /* Project object */;
+}
