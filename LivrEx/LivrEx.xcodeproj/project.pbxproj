@@ -47,6 +47,9 @@
 		AE4A01171F3B584C0038F58E /* LivrExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LivrExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4A011B1F3B584C0038F58E /* LivrExUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivrExUITests.swift; sourceTree = "<group>"; };
 		AE4A011D1F3B584C0038F58E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE4A012A1F3B58CC0038F58E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		AE4A012B1F3B58CC0038F58E /* CoinSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinSystem.swift; sourceTree = "<group>"; };
+		AE4A012C1F3B58CC0038F58E /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		AE4A00FA1F3B584C0038F58E /* LivrEx */ = {
 			isa = PBXGroup;
 			children = (
+				AE4A01291F3B58B50038F58E /* Models */,
 				AE4A00FB1F3B584C0038F58E /* AppDelegate.swift */,
 				AE4A00FD1F3B584C0038F58E /* ViewController.swift */,
 				AE4A00FF1F3B584C0038F58E /* Main.storyboard */,
@@ -123,6 +127,16 @@
 				AE4A011D1F3B584C0038F58E /* Info.plist */,
 			);
 			path = LivrExUITests;
+			sourceTree = "<group>";
+		};
+		AE4A01291F3B58B50038F58E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE4A012A1F3B58CC0038F58E /* Book.swift */,
+				AE4A012B1F3B58CC0038F58E /* CoinSystem.swift */,
+				AE4A012C1F3B58CC0038F58E /* UserProfile.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,7 +443,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MadApps.LivrEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,7 +457,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.MadApps.LivrEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
